@@ -8,3 +8,10 @@ The settings.job is defaulted to run every 15 minutes. Some light reading on how
 https://en.wikipedia.org/wiki/Cron
 
 Note: when deploying a WebJob from Visual Studio, make sure to mark your settings.job file properties as 'Copy if newer'.
+
+# Delete a WebJob
+Open this URL: https://`{yoursitename}`.scm.azurewebsites.net/DebugConsole
+Or use WebMatrix and open your web app.
+
+Then go to the folder path: data\jobs\\`{jobType}`
+The job type can be `continuous` or `triggered`
